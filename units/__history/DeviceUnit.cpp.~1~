@@ -1,0 +1,14 @@
+//---------------------------------------------------------------------------
+
+#pragma hdrstop
+
+#include "DeviceUnit.h"
+//---------------------------------------------------------------------------
+class DeviceType{
+private:
+	String name;
+	String designation;
+    String registryNumber;
+};
+
+#pragma package(smart_init)

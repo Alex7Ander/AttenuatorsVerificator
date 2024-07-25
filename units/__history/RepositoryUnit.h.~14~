@@ -1,0 +1,17 @@
+//---------------------------------------------------------------------------
+#ifndef RepositoryUnitH
+#define RepositoryUnitH
+#include "DeviceUnit.h"
+//---------------------------------------------------------------------------
+class Repository{
+  private:
+
+  public:
+	virtual void save() = 0;
+  protected:
+
+
+};
+
+
+#endif

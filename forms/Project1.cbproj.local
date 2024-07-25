@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2024.07.25 13:36:45.090,=C:\Users\user\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2024.07.25 13:36:45.775,=C:\Users\user\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2024.07.25 13:59:00.357,D:\__Projects\AttenuatorsVerificator\MainFormUnit.h=C:\Users\user\Documents\Embarcadero\Studio\Projects\Unit1.h</Transaction>
+    <Transaction>2024.07.25 13:59:00.357,D:\__Projects\AttenuatorsVerificator\MainFormUnit.cpp=C:\Users\user\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2024.07.25 13:59:00.357,D:\__Projects\AttenuatorsVerificator\MainFormUnit.dfm=C:\Users\user\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2024.07.25 15:17:10.150,=C:\Users\user\Documents\Embarcadero\Studio\Projects\Unit2.cpp</Transaction>
+    <Transaction>2024.07.25 15:18:37.553,D:\__Projects\AttenuatorsVerificator\forms\NewTypeFormUnit.h=C:\Users\user\Documents\Embarcadero\Studio\Projects\Unit2.h</Transaction>
+    <Transaction>2024.07.25 15:18:37.553,D:\__Projects\AttenuatorsVerificator\forms\NewTypeFormUnit.cpp=C:\Users\user\Documents\Embarcadero\Studio\Projects\Unit2.cpp</Transaction>
+    <Transaction>2024.07.25 15:18:37.553,D:\__Projects\AttenuatorsVerificator\forms\NewTypeFormUnit.dfm=C:\Users\user\Documents\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
+    <Transaction>2024.07.25 15:32:59.202,D:\__Projects\AttenuatorsVerificator\forms\Project.h=C:\Users\user\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2024.07.25 15:33:16.311,D:\__Projects\AttenuatorsVerificator\forms\Project1.cbproj=C:\Users\user\Documents\Embarcadero\Studio\Projects\Project1.cbproj</Transaction>
+    <Transaction>2024.07.25 15:34:08.083,=D:\__Projects\AttenuatorsVerificator\forms\Unit1.cpp</Transaction>
+    <Transaction>2024.07.25 15:34:49.801,D:\__Projects\AttenuatorsVerificator\units\RepositoryUnit.cpp=D:\__Projects\AttenuatorsVerificator\forms\Unit1.cpp</Transaction>
+    <Transaction>2024.07.25 15:34:49.801,D:\__Projects\AttenuatorsVerificator\units\RepositoryUnit.h=D:\__Projects\AttenuatorsVerificator\forms\Unit1.h</Transaction>
+    <Transaction>2024.07.25 15:49:21.235,=D:\__Projects\AttenuatorsVerificator\forms\Unit1.cpp</Transaction>
+    <Transaction>2024.07.25 15:51:13.476,D:\__Projects\AttenuatorsVerificator\units\DeviceUnit.h=D:\__Projects\AttenuatorsVerificator\forms\Unit1.h</Transaction>
+    <Transaction>2024.07.25 15:51:13.476,D:\__Projects\AttenuatorsVerificator\units\DeviceUnit.cpp=D:\__Projects\AttenuatorsVerificator\forms\Unit1.cpp</Transaction>
+  </Transactions>
+</BorlandProject>

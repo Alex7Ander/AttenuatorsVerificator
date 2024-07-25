@@ -1,0 +1,11 @@
+//---------------------------------------------------------------------------
+
+#pragma hdrstop
+
+#include "DeviceUnit.h"
+//---------------------------------------------------------------------------
+DeviceType::DeviceType(String name, String designation, String registryNumber){
+
+}
+
+#pragma package(smart_init)

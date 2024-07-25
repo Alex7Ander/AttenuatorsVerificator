@@ -1,0 +1,19 @@
+//---------------------------------------------------------------------------
+
+#pragma hdrstop
+
+#include "DeviceUnit.h"
+//---------------------------------------------------------------------------
+class DeviceType{
+private:
+	String name;
+	String designation;
+	String registryNumber;
+public:
+	DeviceType(String name; String designation; String registryNumber);
+	String getName(){return name;}
+	String getDesignation(){retrun  designation;}
+	String getRegistryNumber(){return registryNumber;)
+};
+
+#pragma package(smart_init)

@@ -1,0 +1,19 @@
+//---------------------------------------------------------------------------
+#ifndef RepositoryUnitH
+#define RepositoryUnitH
+#include "DeviceUnit.h"
+//---------------------------------------------------------------------------
+template <typename T> class Repository{
+  private:
+
+  public:
+	void save(T value);
+  protected:
+
+
+};
+
+template <> class Repository<DeviceType>{
+
+};
+#endif
