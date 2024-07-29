@@ -1,22 +1,27 @@
 //---------------------------------------------------------------------------
 
-#ifndef NewTypeFormUnitH
-#define NewTypeFormUnitH
+#ifndef dbConnectionFormUnitH
+#define dbConnectionFormUnitH
 //---------------------------------------------------------------------------
 #include <System.Classes.hpp>
 #include <Vcl.Controls.hpp>
 #include <Vcl.StdCtrls.hpp>
 #include <Vcl.Forms.hpp>
+#include <Vcl.Dialogs.hpp>
 //---------------------------------------------------------------------------
-class TNewTypeForm : public TForm
+class TdbConnectionForm : public TForm
 {
 __published:	// IDE-managed Components
-	TGroupBox *GroupBox1;
+	TGroupBox *dbGroupBox;
+	TLabel *filePathBannerLabel;
+	TLabel *filePathLabel;
+	TButton *dbFilePathButton;
+	TFileOpenDialog *dbFileOpenDialog;
 private:	// User declarations
 public:		// User declarations
-	__fastcall TNewTypeForm(TComponent* Owner);
+	__fastcall TdbConnectionForm(TComponent* Owner);
 };
 //---------------------------------------------------------------------------
-extern PACKAGE TNewTypeForm *NewTypeForm;
+extern PACKAGE TdbConnectionForm *dbConnectionForm;
 //---------------------------------------------------------------------------
 #endif

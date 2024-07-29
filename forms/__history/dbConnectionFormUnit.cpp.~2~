@@ -1,0 +1,16 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "dbConnectionFormUnit.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TdbConnectionForm *dbConnectionForm;
+//---------------------------------------------------------------------------
+__fastcall TdbConnectionForm::TdbConnectionForm(TComponent* Owner)
+	: TForm(Owner)
+{
+}
+//---------------------------------------------------------------------------

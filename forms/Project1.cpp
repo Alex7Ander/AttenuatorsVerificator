@@ -4,7 +4,8 @@
 #pragma hdrstop
 #include <tchar.h>
 //---------------------------------------------------------------------------
-USEFORM("..\MainFormUnit.cpp", Form1);
+USEFORM("..\MainFormUnit.cpp", MainForm);
+USEFORM("dbConnectionFormUnit.cpp", dbConnectionForm);
 USEFORM("NewTypeFormUnit.cpp", NewTypeForm);
 //---------------------------------------------------------------------------
 int WINAPI _tWinMain(HINSTANCE, HINSTANCE, LPTSTR, int)
@@ -13,7 +14,8 @@ int WINAPI _tWinMain(HINSTANCE, HINSTANCE, LPTSTR, int)
 	{
 		Application->Initialize();
 		Application->MainFormOnTaskBar = true;
-		Application->CreateForm(__classid(TForm1), &Form1);
+		Application->CreateForm(__classid(TMainForm), &MainForm);
+		Application->CreateForm(__classid(TdbConnectionForm), &dbConnectionForm);
 		Application->CreateForm(__classid(TNewTypeForm), &NewTypeForm);
 		Application->Run();
 	}

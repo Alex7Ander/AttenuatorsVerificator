@@ -5,18 +5,25 @@
 
 #include "MainFormUnit.h"
 #include "NewTypeFormUnit.h"
+#include "dbConnectionFormUnit.h"
 //---------------------------------------------------------------------------
 #pragma package(smart_init)
 #pragma resource "*.dfm"
-TForm1 *Form1;
+TMainForm *MainForm;
 //---------------------------------------------------------------------------
-__fastcall TForm1::TForm1(TComponent* Owner)
+__fastcall TMainForm::TMainForm(TComponent* Owner)
 	: TForm(Owner)
 {
 }
 //---------------------------------------------------------------------------
-void __fastcall TForm1::NewTypeMainMenuBtnClick(TObject *Sender)
+void __fastcall TMainForm::NewTypeMainMenuBtnClick(TObject *Sender)
 {
     NewTypeForm->Show();
 }
 //---------------------------------------------------------------------------
+void __fastcall TMainForm::N3Click(TObject *Sender)
+{
+  dbConnectionForm->Show();
+}
+//---------------------------------------------------------------------------
+

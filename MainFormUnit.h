@@ -9,18 +9,21 @@
 #include <Vcl.Forms.hpp>
 #include <Vcl.Menus.hpp>
 //---------------------------------------------------------------------------
-class TForm1 : public TForm
+class TMainForm : public TForm
 {
 __published:	// IDE-managed Components
 	TMainMenu *MainMenu1;
 	TMenuItem *N1;
 	TMenuItem *NewTypeMainMenuBtn;
+	TMenuItem *N2;
+	TMenuItem *N3;
 	void __fastcall NewTypeMainMenuBtnClick(TObject *Sender);
+	void __fastcall N3Click(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
-	__fastcall TForm1(TComponent* Owner);
+	__fastcall TMainForm(TComponent* Owner);
 };
 //---------------------------------------------------------------------------
-extern PACKAGE TForm1 *Form1;
+extern PACKAGE TMainForm *MainForm;
 //---------------------------------------------------------------------------
 #endif

@@ -131,11 +131,17 @@
         <BCC_PCHName_Clang>Project.h</BCC_PCHName_Clang>
     </PropertyGroup>
     <ItemGroup>
+        <CppCompile Include="dbConnectionFormUnit.cpp">
+            <Form>dbConnectionForm</Form>
+            <FormType>dfm</FormType>
+            <DependentOn>dbConnectionFormUnit.h</DependentOn>
+            <BuildOrder>6</BuildOrder>
+        </CppCompile>
         <CppCompile Include="NewTypeFormUnit.cpp">
             <Form>NewTypeForm</Form>
             <FormType>dfm</FormType>
             <DependentOn>NewTypeFormUnit.h</DependentOn>
-            <BuildOrder>3</BuildOrder>
+            <BuildOrder>6</BuildOrder>
         </CppCompile>
         <PCHCompile Include="Project.h">
             <BuildOrder>1</BuildOrder>
@@ -145,7 +151,7 @@
             <BuildOrder>0</BuildOrder>
         </CppCompile>
         <CppCompile Include="..\MainFormUnit.cpp">
-            <Form>Form1</Form>
+            <Form>MainForm</Form>
             <FormType>dfm</FormType>
             <DependentOn>..\MainFormUnit.h</DependentOn>
             <BuildOrder>2</BuildOrder>
@@ -159,6 +165,7 @@
             <BuildOrder>4</BuildOrder>
         </CppCompile>
         <FormResources Include="..\MainFormUnit.dfm"/>
+        <FormResources Include="dbConnectionFormUnit.dfm"/>
         <FormResources Include="NewTypeFormUnit.dfm"/>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>
@@ -193,7 +200,12 @@
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile Condition="'$(DynamicRTL)'=='true' And '$(Multithreaded)'=='true'" LocalName="$(BDS)\bin\cc32c270mt.dll" Class="DependencyModule">
+                <DeployFile Condition="'$(DynamicRTL)'=='true' And '$(Multithreaded)'!='true'" LocalName="$(BDS)\bin\cc32c270.dll" Class="DependencyModule">
+                    <Platform Name="Win32">
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile Condition="'$(DynamicRTL)'=='true' And '$(Multithreaded)'!='true'" LocalName="$(BDS)\bin\cc32270.dll" Class="DependencyModule">
                     <Platform Name="Win32">
                         <Overwrite>true</Overwrite>
                     </Platform>
@@ -203,18 +215,13 @@
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile Condition="'$(DynamicRTL)'=='true'" LocalName="$(BDS)\Redist\osx64\libcgstl.dylib" Class="DependencyModule">
-                    <Platform Name="OSX64">
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile Condition="'$(DynamicRTL)'=='true' And '$(Multithreaded)'!='true'" LocalName="$(BDS)\bin\cc32270.dll" Class="DependencyModule">
-                    <Platform Name="Win32">
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
                 <DeployFile Condition="'$(UsingDelphiRTL)'=='true'" LocalName="$(BDS)\bin\borlndmm.dll" Class="DependencyModule">
                     <Platform Name="Win32">
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile Condition="'$(DynamicRTL)'=='true'" LocalName="$(BDS)\Redist\osx64\libcgstl.dylib" Class="DependencyModule">
+                    <Platform Name="OSX64">
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
@@ -255,7 +262,7 @@
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile Condition="'$(DynamicRTL)'=='true' And '$(Multithreaded)'!='true'" LocalName="$(BDS)\bin\cc32c270.dll" Class="DependencyModule">
+                <DeployFile Condition="'$(DynamicRTL)'=='true' And '$(Multithreaded)'=='true'" LocalName="$(BDS)\bin\cc32c270mt.dll" Class="DependencyModule">
                     <Platform Name="Win32">
                         <Overwrite>true</Overwrite>
                     </Platform>
