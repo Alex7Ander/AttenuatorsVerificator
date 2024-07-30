@@ -17,8 +17,10 @@ __published:	// IDE-managed Components
 	TMenuItem *NewTypeMainMenuBtn;
 	TMenuItem *N2;
 	TMenuItem *N3;
+	TMenuItem *N4;
 	void __fastcall NewTypeMainMenuBtnClick(TObject *Sender);
 	void __fastcall N3Click(TObject *Sender);
+	void __fastcall N4Click(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
 	__fastcall TMainForm(TComponent* Owner);

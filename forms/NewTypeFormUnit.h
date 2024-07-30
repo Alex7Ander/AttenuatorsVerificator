@@ -7,6 +7,10 @@
 #include <Vcl.Controls.hpp>
 #include <Vcl.StdCtrls.hpp>
 #include <Vcl.Forms.hpp>
+
+#include "DeviceUnit.h"
+#include "dbConnectionFormUnit.h"
+#include "DBConnectorUnit.h"
 //---------------------------------------------------------------------------
 
 class TNewTypeForm : public TForm

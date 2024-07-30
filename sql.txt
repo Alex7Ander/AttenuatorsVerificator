@@ -1,0 +1,10 @@
+CREATE TABLE types (id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, designation TEXT, registryNumber TEXT, connectorTYpe TEXT, startFreq REAL, stopFreq REAL, comment TEXT);
+CREATE TABLE owners (id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, inn TEXT, adress TEXT, phone TEXT, website TEXT);
+CREATE TABLE verificators (id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, surname TEXT, patronymic TEXT, post TEXT);
+
+CREATE TABLE devices (id INTEGER PRIMARY KEY AUTOINCREMENT, typeID INTEGER, serialNumber TEXT, inventoryNumber TEXT, ownerID INTEGER, FOREIGN KEY (typeID)  REFERENCES types (id), FOREIGN KEY (ownerID)  REFERENCES owners (id)); 
+
+CREATE TABLE verifications (id INTEGER PRIMARY KEY AUTOINCREMENT, date TEXT, deviceID INTEGER, verificatorID INTEGER, FOREIGN KEY (deviceID)  REFERENCES devices (id), FOREIGN KEY (verificatorID)  REFERENCES verificators (id)); 
+
+
+INSERT INTO types [(name, designation, registryNumber, connectorTYpe, startFreq, stopFreq)] VALUES (name, designation, registryNumber, connectorTYpe, startFreq, stopFreq);

@@ -1,0 +1,24 @@
+//---------------------------------------------------------------------------
+#pragma hdrstop
+#include "DBConnectorUnit.h"
+//---------------------------------------------------------------------------
+
+bool DBConnector::connect(){
+    return this->connectionForm->connect();
+}
+
+bool DBConnector::isConnected(){
+    return connected;
+}
+
+void DBConnector::save(DeviceType *deviceType){
+	String name = deviceType->getName();
+	String designation = deviceType->getName();
+	String registryNumber = deviceType->getName();
+	String connectorType = deviceType->getName();
+	double startFreq = deviceType->getName();
+	double stopFreq = deviceType->getName();
+	String sql = "INSERT INTO ";
+}
+
+#pragma package(smart_init)

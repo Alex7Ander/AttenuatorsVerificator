@@ -1,26 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
-    <Transaction>1899.12.30 00:00:00.000.553,C:\Users\user\Documents\Embarcadero\Studio\Projects\Unit2.cpp=D:\__Projects\AttenuatorsVerificator\forms\NewTypeFormUnit.cpp</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.150,=C:\Users\user\Documents\Embarcadero\Studio\Projects\Unit2.cpp</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.357,C:\Users\user\Documents\Embarcadero\Studio\Projects\Unit1.h=D:\__Projects\AttenuatorsVerificator\MainFormUnit.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.357,D:\__Projects\AttenuatorsVerificator\MainFormUnit.h=C:\Users\user\Documents\Embarcadero\Studio\Projects\Unit1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.357,D:\__Projects\AttenuatorsVerificator\MainFormUnit.cpp=C:\Users\user\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.202,D:\__Projects\AttenuatorsVerificator\forms\Project.h=C:\Users\user\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
     <Transaction>1899.12.30 00:00:00.000.235,=D:\__Projects\AttenuatorsVerificator\forms\Unit1.cpp</Transaction>
     <Transaction>1899.12.30 00:00:00.000.083,=D:\__Projects\AttenuatorsVerificator\forms\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.311,D:\__Projects\AttenuatorsVerificator\forms\Project1.cbproj=C:\Users\user\Documents\Embarcadero\Studio\Projects\Project1.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.150,=C:\Users\user\Documents\Embarcadero\Studio\Projects\Unit2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.553,D:\__Projects\AttenuatorsVerificator\forms\NewTypeFormUnit.h=C:\Users\user\Documents\Embarcadero\Studio\Projects\Unit2.h</Transaction>
     <Transaction>1899.12.30 00:00:00.000.775,=C:\Users\user\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.357,C:\Users\user\Documents\Embarcadero\Studio\Projects\Unit1.cpp=D:\__Projects\AttenuatorsVerificator\MainFormUnit.cpp</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.476,D:\__Projects\AttenuatorsVerificator\forms\dbConnectionFormUnit.h=D:\__Projects\AttenuatorsVerificator\forms\Unit2.h</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.357,C:\Users\user\Documents\Embarcadero\Studio\Projects\Unit1.dfm=D:\__Projects\AttenuatorsVerificator\MainFormUnit.dfm</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.311,C:\Users\user\Documents\Embarcadero\Studio\Projects\Project1.cbproj=D:\__Projects\AttenuatorsVerificator\forms\Project1.cbproj</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.476,D:\__Projects\AttenuatorsVerificator\forms\Unit1.cpp=D:\__Projects\AttenuatorsVerificator\units\DeviceUnit.cpp</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.553,C:\Users\user\Documents\Embarcadero\Studio\Projects\Unit2.dfm=D:\__Projects\AttenuatorsVerificator\forms\NewTypeFormUnit.dfm</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.476,D:\__Projects\AttenuatorsVerificator\forms\dbConnectionFormUnit.cpp=D:\__Projects\AttenuatorsVerificator\forms\Unit2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.357,D:\__Projects\AttenuatorsVerificator\MainFormUnit.dfm=C:\Users\user\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.801,D:\__Projects\AttenuatorsVerificator\units\RepositoryUnit.cpp=D:\__Projects\AttenuatorsVerificator\forms\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.476,D:\__Projects\AttenuatorsVerificator\units\DeviceUnit.cpp=D:\__Projects\AttenuatorsVerificator\forms\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.476,D:\__Projects\AttenuatorsVerificator\units\DeviceUnit.h=D:\__Projects\AttenuatorsVerificator\forms\Unit1.h</Transaction>
     <Transaction>1899.12.30 00:00:00.000.848,=D:\__Projects\AttenuatorsVerificator\forms\Unit2.cpp</Transaction>
     <Transaction>1899.12.30 00:00:00.000.090,=C:\Users\user\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.202,C:\Users\user\Documents\Embarcadero\Studio\Projects\Project1PCH1.h=D:\__Projects\AttenuatorsVerificator\forms\Project.h</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.801,D:\__Projects\AttenuatorsVerificator\forms\Unit1.cpp=D:\__Projects\AttenuatorsVerificator\units\RepositoryUnit.cpp</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.476,D:\__Projects\AttenuatorsVerificator\forms\dbConnectionFormUnit.dfm=D:\__Projects\AttenuatorsVerificator\forms\Unit2.dfm</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.801,D:\__Projects\AttenuatorsVerificator\forms\Unit1.h=D:\__Projects\AttenuatorsVerificator\units\RepositoryUnit.h</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.476,D:\__Projects\AttenuatorsVerificator\forms\Unit1.h=D:\__Projects\AttenuatorsVerificator\units\DeviceUnit.h</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.553,C:\Users\user\Documents\Embarcadero\Studio\Projects\Unit2.h=D:\__Projects\AttenuatorsVerificator\forms\NewTypeFormUnit.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.553,D:\__Projects\AttenuatorsVerificator\forms\NewTypeFormUnit.cpp=C:\Users\user\Documents\Embarcadero\Studio\Projects\Unit2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.553,D:\__Projects\AttenuatorsVerificator\forms\NewTypeFormUnit.dfm=C:\Users\user\Documents\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.476,D:\__Projects\AttenuatorsVerificator\forms\Unit2.h=D:\__Projects\AttenuatorsVerificator\forms\dbConnectionFormUnit.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.476,D:\__Projects\AttenuatorsVerificator\forms\Unit2.cpp=D:\__Projects\AttenuatorsVerificator\forms\dbConnectionFormUnit.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.801,D:\__Projects\AttenuatorsVerificator\units\RepositoryUnit.h=D:\__Projects\AttenuatorsVerificator\forms\Unit1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.476,D:\__Projects\AttenuatorsVerificator\forms\Unit2.dfm=D:\__Projects\AttenuatorsVerificator\forms\dbConnectionFormUnit.dfm</Transaction>
+    <Transaction>2024.07.30 15:29:02.844,=D:\__Projects\AttenuatorsVerificator\forms\Unit1.cpp</Transaction>
+    <Transaction>2024.07.30 15:29:50.284,D:\__Projects\AttenuatorsVerificator\forms\equipmentConnectionFormUnit.h=D:\__Projects\AttenuatorsVerificator\forms\Unit1.h</Transaction>
+    <Transaction>2024.07.30 15:29:50.284,D:\__Projects\AttenuatorsVerificator\forms\equipmentConnectionFormUnit.cpp=D:\__Projects\AttenuatorsVerificator\forms\Unit1.cpp</Transaction>
+    <Transaction>2024.07.30 15:29:50.284,D:\__Projects\AttenuatorsVerificator\forms\equipmentConnectionFormUnit.dfm=D:\__Projects\AttenuatorsVerificator\forms\Unit1.dfm</Transaction>
+    <Transaction>2024.07.30 16:02:05.713,=D:\__Projects\AttenuatorsVerificator\forms\Unit1.cpp</Transaction>
+    <Transaction>2024.07.30 16:02:38.438,D:\__Projects\AttenuatorsVerificator\units\DBConnectorUnit.h=D:\__Projects\AttenuatorsVerificator\forms\Unit1.h</Transaction>
+    <Transaction>2024.07.30 16:02:38.438,D:\__Projects\AttenuatorsVerificator\units\DBConnectorUnit.cpp=D:\__Projects\AttenuatorsVerificator\forms\Unit1.cpp</Transaction>
   </Transactions>
 </BorlandProject>
