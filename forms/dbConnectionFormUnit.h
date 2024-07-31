@@ -27,6 +27,7 @@
 #include <vector>
 
 //---------------------------------------------------------------------------
+
 class TdbConnectionForm : public TForm
 {
 __published:	// IDE-managed Components
@@ -42,13 +43,14 @@ __published:	// IDE-managed Components
 	void __fastcall dbFilePathButtonClick(TObject *Sender);
 	void __fastcall connectButtonClick(TObject *Sender);
 private:	// User declarations
-    String dbFilePath;
+	String dbFilePath;
+
 public:		// User declarations
 	__fastcall TdbConnectionForm(TComponent* Owner);
+	void readDBFailePath();
+	String getDBFilrPath(){return dbFilePath;}
 	bool connect();
-	void sendQuery(String sql);
-	void sendQuery(String sql, std::vector<String> answer);
-	void sendQuery(String sql, std::vector<std::vector<String>> answer);
+
 };
 //---------------------------------------------------------------------------
 extern PACKAGE TdbConnectionForm *dbConnectionForm;

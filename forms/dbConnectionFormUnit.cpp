@@ -1,22 +1,30 @@
 //---------------------------------------------------------------------------
-
 #include <vcl.h>
 #include <FireDAC.DApt.hpp>
 #include <iostream>
 #include <fstream>
 #include <iomanip>
 #pragma hdrstop
-
 #include "dbConnectionFormUnit.h"
 //---------------------------------------------------------------------------
 #pragma package(smart_init)
 #pragma resource "*.dfm"
 TdbConnectionForm *dbConnectionForm;
 //---------------------------------------------------------------------------
+void TdbConnectionForm::readDBFailePath(){
+	ifstream fin(".//files//dbFilePath.dat");
+	char buff[512];
+	fin.getline(buff, 512);
+	fin.close();
+	this->dbFilePath = buff;
+	filePathLabel->Caption = dbFilePath;
+}
+//---------------------------------------------------------------------------
 bool TdbConnectionForm::connect(){
 	if(dbFilePath==""){
-        return false;
+		return false;
 	}
+	/*
 	FDConnection1->DriverName = "SQLITE";
 	FDConnection1->Params->Values["Database"] = dbFilePath;
 	try{
@@ -44,27 +52,17 @@ bool TdbConnectionForm::connect(){
 		connectionMemo->Font->Color = clBlack;
 		return false;
 	}
-}
-//---------------------------------------------------------------------------
-void TdbConnectionForm::sendQuery(String sql){
-  TFDQuery* query = new TFDQuery(NULL);
-  query->Connection = FDConnection1;
-  query->SQL->Text = sql;
-  query->Open();
-  query->Close();
-  query->DisposeOf();
+	*/
+    return true;
 }
 
 //---------------------------------------------------------------------------
+//---------------------------------------------------------------------------
+//---------------------------------------------------------------------------
 __fastcall TdbConnectionForm::TdbConnectionForm(TComponent* Owner)
-	: TForm(Owner)
-{
-	ifstream fin(".//files//dbFilePath.dat");
-	char buff[512];
-	fin.getline(buff, 512);
-	fin.close();
-	this->dbFilePath = buff;
-	filePathLabel->Caption = dbFilePath;
+	: TForm(Owner){
+	readDBFailePath();
+
 }
 //---------------------------------------------------------------------------
 

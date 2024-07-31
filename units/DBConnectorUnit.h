@@ -16,10 +16,18 @@ private:
 	bool connected;
 
 public:
+	DBConnector();
 	DBConnector(TdbConnectionForm* connectionForm) {this->connectionForm = connectionForm;}
+
+	void setConnectionForm(TdbConnectionForm* form){connectionForm = form;}
+
 	bool connect();
 	bool isConnected();
-    void save(DeviceType *deviceType);
+
+	//send query
+	void sendQuery(String sql);
+	void sendSelectQuery(String sql);
+	void sendSelectQuery(String sql, std::vector<std::vector<String>> answer);
 
 };
 //---------------------------------------------------------------------------

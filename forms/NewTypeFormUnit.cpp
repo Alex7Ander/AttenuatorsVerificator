@@ -22,9 +22,19 @@ void __fastcall TNewTypeForm::saveButtonClick(TObject *Sender)
 	String connectorType = connectorTypeComboBox->Text;
 	double startFreq = StrToFloat(startFreqEdit->Text);
 	double stopFreq = StrToFloat(stopFreqEdit->Text);
-    String comment = commentMemo->Text;
+	String comment = commentMemo->Text;
+
 	DeviceType *newType = new DeviceType(name, designation, registryNumber, connectorType, startFreq, stopFreq, comment);
 	DBConnector *connector = new DBConnector(dbConnectionForm);
-	connector->save(newType);
+	DeviceTypeRepository *typeRepo = new DeviceTypeRepository(connector);
+
+	try{
+	   typeRepo->save(newType);
+	   ShowMessage("Успешное сохранение");
+       this->Close();
+	}
+	catch(Exception *exp){
+		ShowMessage("Ошибка при сохранении");
+	}
 }
 //---------------------------------------------------------------------------

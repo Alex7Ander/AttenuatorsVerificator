@@ -140,7 +140,7 @@ object NewTypeForm: TNewTypeForm
       Width = 130
       Height = 28
       TabOrder = 5
-      Text = '118.1'
+      Text = '118'
     end
     object stopFreqEdit: TEdit
       Left = 416
@@ -148,7 +148,7 @@ object NewTypeForm: TNewTypeForm
       Width = 153
       Height = 28
       TabOrder = 6
-      Text = '178.3'
+      Text = '178'
     end
     object commentMemo: TMemo
       Left = 208

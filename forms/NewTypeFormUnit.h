@@ -10,7 +10,7 @@
 
 #include "DeviceUnit.h"
 #include "dbConnectionFormUnit.h"
-#include "DBConnectorUnit.h"
+#include "RepositoryUnit.h"
 //---------------------------------------------------------------------------
 
 class TNewTypeForm : public TForm
